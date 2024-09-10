@@ -39,6 +39,8 @@ if 'mapa_router' not in st.session_state:
 
     st.session_state.mapa_router = bd_phoenix('vw_router')
 
+st.set_page_config(layout='wide')
+
 st.title('Paxs IN')
 
 st.divider()
